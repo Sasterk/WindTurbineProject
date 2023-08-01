@@ -1,0 +1,14 @@
+# Dependencies and Setup
+import matplotlib.pyplot as plt
+import pandas as pd
+import scipy.stats as st
+import numpy as np
+
+# Study data files
+wind_speed_datafile = "Resources/wtk_site_metadata.csv"
+
+
+# Read the mouse data and the study results
+wind_speed_data = pd.read_csv(wind_speed_datafile)
+
+wind_speed_data
